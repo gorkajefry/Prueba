@@ -1,0 +1,132 @@
+.navbar {
+    margin-bottom: 0px;
+}
+
+.jumbotron {
+   
+    background: rgb(255, 255, 255);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(193, 193, 193, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(193, 193, 193, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(193, 193, 193, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
+    /* IE6-9 */
+    padding: 0px 0px;
+}
+
+.jumbotron h1 {
+    color: black;
+}
+
+.jumbotron p {
+    color: blue;
+}
+
+
+/* post */
+
+.main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.post {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.post .post-title a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+.post .post-title a:link {
+    text-decoration: none;
+}
+
+.post .post-title a {
+    color: black;
+}
+
+.post .thumb {
+    margin-right: 10px;
+    width: 40%;
+}
+
+.post .thumb img {
+    width: 100%;
+}
+
+.post .contenedor-botones {
+    width: 100%;
+}
+
+.post .post-autor {
+    color: #2E9DE8;
+}
+
+body {
+    background: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.row {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.breadcrumb {
+    background-color: white;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+}
+
+
+/*--Media querie--*/
+
+@media screen and (max-width: 768px) {
+    .post .thumb {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .post .thumb {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+}
+
+footer {
+    margin-bottom: 10px;
+}
+
+.margen-footer {
+    padding-top: 10px;
+}
+
+.glyphicon-th-list {
+    color: black;
+    position: fixed !important;
+    top: 0;
+    z-index: 1000;
+    font-size: 1.5em;
+    margin:1em;
+}
+
+
+@media screen and (max-width: 768px) {
+    #sidebar-wrapper{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+}
